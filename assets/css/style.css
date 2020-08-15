@@ -1,7 +1,16 @@
+/* 
+
+COLOR CODES:
+#FFFFFF	White
+#2192de Light Blue
+#293445 Dark Blue
+
+*/
 *{
     margin: 0;
     padding: 0;  
 }
+
 body {
     background-image: url(../background.png);
     height: 100vh;
@@ -40,9 +49,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+
 
 
 ul {
@@ -75,7 +82,7 @@ ul li a {
     padding: 20px 30px;
     border: 1px solid transparent;
     color: white;
-    transition: 0.6s ease;
+    
 }
 
 ul li.active a {
@@ -87,6 +94,24 @@ ul li a:hover {
     background-color: #fff;
     color: #000;
     text-decoration: none;
+    transition: 0.6s ease;
+}
+
+
+.button{
+    background-color:#293445;
+    border: none;
+    color:white;
+    padding: 20px 30px;
+    text-decoration:none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color:black;
+    background-color:white;
+    transition: 0.6s ease;
 }
 
 
@@ -112,6 +137,8 @@ ul li a:hover {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
 
 #about-me {
     
